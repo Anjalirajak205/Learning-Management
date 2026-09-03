@@ -1,5 +1,5 @@
 const Course = require("../models/Course");
-const Lesson = require("../models/Lesson");
+const Lesson = require("../models/Lessons");
 const Enrollment = require("../models/Enrollment");
 const Quiz = require("../models/Quiz");
 const QuizAttempt = require("../models/QuizAttempt");

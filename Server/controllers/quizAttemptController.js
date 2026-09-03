@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 const Quiz = require("../models/Quiz");
 const QuizAttempt = require("../models/QuizAttempt");
 const Enrollment = require("../models/Enrollment");
+const Course = require("../models/Course");
 
 // SUBMIT QUIZ
 

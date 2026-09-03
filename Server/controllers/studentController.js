@@ -1,7 +1,7 @@
 const Enrollment = require("../models/Enrollment");
 const Progress = require("../models/Progress");
 const QuizAttempt = require("../models/QuizAttempt");
-const Lesson = require("../models/Lesson");
+const Lesson = require("../models/Lessons");
 const User = require("../models/User");
 
 // GET STUDENT DASHBOARD

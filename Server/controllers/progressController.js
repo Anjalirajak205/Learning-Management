@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const Progress = require("../models/Progress");
 const Course = require("../models/Course");
-const Lesson = require("../models/Lesson");
+const Lesson = require("../models/Lessons");
 const Enrollment = require("../models/Enrollment");
 
 // GET COURSE PROGRESS
