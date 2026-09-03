@@ -8,6 +8,8 @@ const enrollmentRoutes = require("./routes/enrollmentRoutes.js");
 const progressRoutes = require("./routes/progressRoutes.js");
 const quizRoutes = require("./routes/quizRoutes");
 const quizAttemptRoutes = require("./routes/quizAttemptRoutes");
+const studentRoutes = require("./routes/studentRoutes");
+const instructorRoutes = require("./routes/instructorRoutes");
 
 
 const connectDB = require("./config/db.js");
@@ -31,6 +33,8 @@ app.use("/api/enrollment",enrollmentRoutes);
 app.use("/api/progress",progressRoutes);
 app.use("/api/quiz", quizRoutes);
 app.use( "/api/quizAttempt",quizAttemptRoutes);
+app.use("/api/students", studentRoutes);
+app.use("/api/instructors", instructorRoutes);
 
 const PORT = process.env.PORT || 5000;
 
